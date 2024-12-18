@@ -1,0 +1,42 @@
+/*Ejercicio1*/
+img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.to {
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    padding: 100px;
+    width: 70%;
+    margin: 50px auto;
+}
+.ta {
+    text-align: center;
+}
+.logo {
+    font-size: 40px;
+}
+.logo2 {
+    font-size: 40px;
+}
+cabecera { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Ejercicio2*/
+hr {
+    margin: 2em 0;
+}
+.ex1 {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    background-color: lightskyblue;
+    place-items: center;
+}
+.ex1 div {
+    background-color:lightyellow;
+} 
