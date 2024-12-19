@@ -128,3 +128,27 @@ hr {
                 grid-column: 1 / 4;
             }
             </style>
+/*Ejercicio7*/
+
+<style>
+            
+                .6 {
+                    resize: both;
+                    overflow: auto;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                }
+                
+                .6-1{
+                    background-color:rgb(253, 213, 213);
+                }
+                .6-2 {
+                    background-color: rgb(212, 235, 243);
+                }
+                .6-3 {
+                    background-color: rgb(252, 218, 208);
+                }
+                .6-4 {
+                    background-color: rgb(243, 236, 203);
+                }
+                </style>
