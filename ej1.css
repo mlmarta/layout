@@ -30,13 +30,31 @@ cabecera {
 hr {
     margin: 2em 0;
 }
-.ex1 {
+.1 {
     resize: both;
     overflow: auto;
     display: grid;
     background-color: lightskyblue;
     place-items: center;
 }
-.ex1 div {
+.1 div {
     background-color:lightyellow;
 } 
+
+/*Ejercicio3*/
+<style>
+        .2 {
+            resize: both;
+            overflow: auto;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(183, 219, 241);
+            justify-content: center;
+        }
+        
+        .2 div{
+            flex: 0 1 150px;
+            margin: 5px;
+            background-color:rgb(253, 253, 253);
+        }
+        </style>
