@@ -59,7 +59,7 @@ hr {
         }
         </style>
 
-/*Ejercicio*/
+/*Ejercicio4*/
   <style>
             .3 {
                 resize: both;
@@ -75,5 +75,26 @@ hr {
             
             .3-2 {
                 background-color: rgb(241, 209, 214);
+            }
+            </style>
+/*Ejercicio5*/
+
+    <style>
+            .4 {
+                resize: both;
+                overflow: auto;
+                display: grid;
+                grid-template-rows: auto 1fr auto;
+                background-color: rgb(167, 218, 250);
+            }
+            
+            .4-1{
+                background-color:rgb(241, 241, 184);
+            }
+            .4-2 {
+                background-color: rgb(245, 194, 174);
+            }
+            .4-3 {
+                background-color: rgb(216, 180, 185);
             }
             </style>
