@@ -33,7 +33,7 @@ cabecera {
         resize: both;
         overflow: auto;
         display: grid;
-        background-color: black;
+        background-color:rgb(194, 231, 253);
         place-items: center;
     }
     
