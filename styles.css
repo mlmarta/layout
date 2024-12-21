@@ -7,18 +7,18 @@ img {
 .to {
     text-align: center;
     background-color: rgb (206, 206, 206);
-    padding: 100 px;
-    width: 70 %;
-    margin: 50 px auto;
+    padding: 100px;
+    width: 70%;
+    margin: 50px auto;
 }
 .ta {
     text-align: center;
 }
 .logo {
-    font-size: 40 px;
+    font-size: 40px;
 }
 .logo2 {
-    font-size: 40 px;
+    font-size: 40px;
 }
 cabecera { 
     display: flex;
