@@ -60,3 +60,7 @@ cabecera {
             background-color:rgb(253, 253, 253);
         }
         </style>
+
+body {
+    background-color: rgb(6, 6, 70);
+}
