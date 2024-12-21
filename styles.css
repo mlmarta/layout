@@ -53,12 +53,6 @@ cabecera {
             background-color:rgb(183, 219, 241);
             justify-content: center;
         }
-        
-        .ex3 div{
-            flex: 0 1 150px;
-            margin: 5px;
-            background-color:rgb(253, 253, 253);
-        }
         </style>
 /*Final*/
 h3 {
