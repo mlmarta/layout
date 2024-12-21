@@ -29,7 +29,7 @@ cabecera {
 /*Ejercicio2*/
  <style>
     <style>
-    .ex1 {
+    .ex2 {
         resize: both;
         overflow: auto;
         display: grid;
@@ -37,7 +37,7 @@ cabecera {
         place-items: center;
     }
     
-    .ex1 div {
+    .ex2 div {
         background-color:lightyellow;
     }
     </style>
@@ -45,7 +45,7 @@ cabecera {
 
 /*Ejercicio3*/
   <style>
-        .ex2 {
+        .ex3 {
             resize: both;
             overflow: auto;
             display: flex;
@@ -54,7 +54,7 @@ cabecera {
             justify-content: center;
         }
         
-        .ex2 div{
+        .ex3 div{
             flex: 0 1 150px;
             margin: 5px;
             background-color:rgb(253, 253, 253);
