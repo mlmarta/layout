@@ -61,7 +61,7 @@ cabecera {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        colour: black;
+        color: black;
     }
     h3 {
         color: white; /* Solo los títulos <h3> serán blancos */
