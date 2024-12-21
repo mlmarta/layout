@@ -216,43 +216,39 @@
     </section>
 
     <section>
-        <h3>Ejercicio 8:</h3>
-        <style>
+       <h3>Ejercicio 8:</h3>
+<style>
+    .ex8 {
+        resize: both;
+        overflow: auto;
+        display: grid;
+        grid-template-rows: repeat(auto-fill, minmax(100px, 1fr)); /* Cambié de columns a rows */
+        padding: 1em;
+        border: 1px solid blue;
+    }
     
-        .ex8 {
-            resize: both;
-            overflow: auto;
-            display: grid;
-            grid-template-columns: repeat (auto-fill, minmax(100px, 1fr));
-            padding: 1 em;
-            border: 1 px solid blue;
-        }
-        
-        .ex8-1{
-            background-color:lightpink;
-        }
-        .ex8-2 {
-            background-color: lightblue;
-        }
-        .ex8-3 {
-            background-color: lightsalmon;
-        }
-        .ex8-4 {
-            background-color: lightyellow;
-        }
-        </style>
-        
-        <div class="ex8">
-            <div class="ex8-1" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
-            <div class="ex8-2" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
-            <div class="ex8-3" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
-            <div class="ex8-4" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
-        </div>
-    
-        <div style="height: 500px;">
-    
-        </div>
-    
-        <script>
+    .ex8-1 {
+        background-color: lightpink;
+    }
+    .ex8-2 {
+        background-color: lightblue;
+    }
+    .ex8-3 {
+        background-color: lightsalmon;
+    }
+    .ex8-4 {
+        background-color: lightyellow;
+    }
+</style>
+
+<div class="ex8">
+    <div class="ex8-1" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
+    <div class="ex8-2" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
+    <div class="ex8-3" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
+    <div class="ex8-4" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
+</div>
+
+<div style="height: 500px;"></div>
+
 </body>
 </html>
