@@ -52,10 +52,10 @@ cabecera {
             background-color:rgb(183, 219, 241);
             justify-content: center;
         }
-        </style>
+</style>
 /*Final*/
 <style>
-    body {
+    .body {
         background-color: black; /* Fondo negro */
         color: lightblack; /* Texto general en gris claro */
         font-family: Arial, sans-serif;
@@ -63,7 +63,7 @@ cabecera {
         padding: 0;
     }
 
-    h3 {
+    .h3 {
         color: white; /* Solo los títulos <h3> serán blancos */
         text-align: left; /* Alinear a la izquierda */
         margin-left: 20px; /* Margen desde el borde izquierdo */
