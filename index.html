@@ -217,19 +217,19 @@
 
     <section>
     <h3>Ejercicio 8:</h3>
-    <style>
+        <style>
+    
         .ex8 {
             resize: both;
             overflow: auto;
             display: grid;
-            grid-template-columns: 1fr; /* Esto asegura que haya una sola columna */
-            grid-auto-rows: auto; /* Las filas se ajustarán al contenido */
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
             padding: 1em;
             border: 1px solid blue;
         }
-
-        .ex8-1 {
-            background-color: lightpink;
+        
+        .ex8-1{
+            background-color:lightpink;
         }
         .ex8-2 {
             background-color: lightblue;
@@ -240,16 +240,20 @@
         .ex8-4 {
             background-color: lightyellow;
         }
-    </style>
-
-    <div class="ex8">
-        <div class="ex8-1" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
-        <div class="ex8-2" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
-        <div class="ex8-3" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
-        <div class="ex8-4" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
-    </div>
-
-    <div style="height: 500px;"></div>
+        </style>
+        
+        <div class="ex8">
+            <div class="ex8-1" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
+            <div class="ex8-2" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
+            <div class="ex8-3" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
+            <div class="ex8-4" contenteditable="true">Tenemos un ancho de 100px. Si no cabemos todos en una fila, ocupamos otra <br> []</div>
+        </div>
+    
+        <div style="height: 500px;">
+    
+        </div>
+    
+        <script>
 
 </body>
 </html>
