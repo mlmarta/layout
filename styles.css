@@ -27,23 +27,25 @@ cabecera {
 }
 
 /*Ejercicio2*/
-hr {
-    margin: 2em 0;
-}
-.d1 {
-    resize: both;
-    overflow: auto;
-    display: grid;
-    background-color: lightskyblue;
-    place-items: center;
-}
-.d1 div {
-    background-color:lightyellow;
-} 
+ <style>
+    <style>
+    .ex1 {
+        resize: both;
+        overflow: auto;
+        display: grid;
+        background-color: rgb(194, 231, 253);
+        place-items: center;
+    }
+    
+    .ex1 div {
+        background-color:lightyellow;
+    }
+    </style>
+
 
 /*Ejercicio3*/
-<style>
-        .t2 {
+  <style>
+        .ex2 {
             resize: both;
             overflow: auto;
             display: flex;
@@ -52,7 +54,7 @@ hr {
             justify-content: center;
         }
         
-        .t2 div{
+        .ex2 div{
             flex: 0 1 150px;
             margin: 5px;
             background-color:rgb(253, 253, 253);
@@ -61,7 +63,7 @@ hr {
 
 /*Ejercicio4*/
   <style>
-            .cu3 {
+            .ex3 {
                 resize: both;
                 overflow: auto;
                 display: grid;
@@ -69,18 +71,18 @@ hr {
                 background-color: rgb(182, 227, 255);
             }
             
-            .cu3-1{
+            .ex3-1{
                 background-color:rgb(250, 250, 204);
             }
             
-            .cu3-2 {
+            .ex3-2 {
                 background-color: rgb(241, 209, 214);
             }
             </style>
 /*Ejercicio5*/
 
-    <style>
-            .c4 {
+ <style>
+            .ex4 {
                 resize: both;
                 overflow: auto;
                 display: grid;
@@ -88,20 +90,20 @@ hr {
                 background-color: rgb(167, 218, 250);
             }
             
-            .c4-1{
+            .ex4-1{
                 background-color:rgb(241, 241, 184);
             }
-            .c4-2 {
+            .ex4-2 {
                 background-color: rgb(245, 194, 174);
             }
-            .c4-3 {
+            .ex4-3 {
                 background-color: rgb(216, 180, 185);
             }
             </style>
 /*Ejercicio6*/
 
-<style>
-            .s5 {
+ <style>
+            .ex5 {
                 resize: both;
                 overflow: auto;
                 display: grid;
@@ -110,53 +112,53 @@ hr {
                 background-color: lightskyblue;
             }
             
-            .s5-1{
+            .ex5-1{
                 background-color:rgb(238, 193, 212);
                 grid-column: 1 / 4;
             }
-            .s5-2 {
+            .ex5-2 {
                 background-color: rgb(196, 226, 236);
             }
-            .s5-3 {
+            .ex5-3 {
                 background-color: rgb(240, 207, 194);
             }
-            .s5-4 {
+            .ex5-4 {
                 background-color: rgb(247, 241, 187);
             }
-            .s5-5 {
+            .ex5-5 {
                 background-color: rgb(192, 245, 192);
                 grid-column: 1 / 4;
             }
             </style>
 /*Ejercicio7*/
 
-<style>
+ <style>
             
-                .si6 {
+                .ex6 {
                     resize: both;
                     overflow: auto;
                     display: grid;
                     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
                 }
                 
-                .si6-1{
+                .ex6-1{
                     background-color:rgb(253, 213, 213);
                 }
-                .si6-2 {
+                .ex6-2 {
                     background-color: rgb(212, 235, 243);
                 }
-                .si6-3 {
+                .ex6-3 {
                     background-color: rgb(252, 218, 208);
                 }
-                .si6-4 {
+                .ex6-4 {
                     background-color: rgb(243, 236, 203);
                 }
                 </style>
 /*Ejercicio8*/
 
-<style>
+  <style>
             
-                .o7 {
+                .ex7 {
                     resize: both;
                     overflow: auto;
                     display: grid;
@@ -165,16 +167,16 @@ hr {
                     border: 1px solid rgb(13, 13, 122);
                 }
                 
-                .o7-1{
+                .ex7-1{
                     background-color:rgb(247, 197, 204);
                 }
-                .o7-2 {
+                .ex7-2 {
                     background-color: rgb(202, 238, 250);
                 }
-                .o7-3 {
+                .ex7-3 {
                     background-color: rgb(247, 216, 204);
                 }
-                .o7-4 {
+                .ex7-4 {
                     background-color: lightyellow;
                 }
                 </style>
