@@ -30,20 +30,20 @@ cabecera {
 hr {
     margin: 2em 0;
 }
-.1 {
+.d1 {
     resize: both;
     overflow: auto;
     display: grid;
     background-color: lightskyblue;
     place-items: center;
 }
-.1 div {
+.d1 div {
     background-color:lightyellow;
 } 
 
 /*Ejercicio3*/
 <style>
-        .d2 {
+        .t2 {
             resize: both;
             overflow: auto;
             display: flex;
@@ -52,7 +52,7 @@ hr {
             justify-content: center;
         }
         
-        .d2 div{
+        .t2 div{
             flex: 0 1 150px;
             margin: 5px;
             background-color:rgb(253, 253, 253);
@@ -61,7 +61,7 @@ hr {
 
 /*Ejercicio4*/
   <style>
-            .3 {
+            .cu3 {
                 resize: both;
                 overflow: auto;
                 display: grid;
@@ -69,18 +69,18 @@ hr {
                 background-color: rgb(182, 227, 255);
             }
             
-            .3-1{
+            .cu3-1{
                 background-color:rgb(250, 250, 204);
             }
             
-            .3-2 {
+            .cu3-2 {
                 background-color: rgb(241, 209, 214);
             }
             </style>
 /*Ejercicio5*/
 
     <style>
-            .4 {
+            .c4 {
                 resize: both;
                 overflow: auto;
                 display: grid;
@@ -88,20 +88,20 @@ hr {
                 background-color: rgb(167, 218, 250);
             }
             
-            .4-1{
+            .c4-1{
                 background-color:rgb(241, 241, 184);
             }
-            .4-2 {
+            .c4-2 {
                 background-color: rgb(245, 194, 174);
             }
-            .4-3 {
+            .c4-3 {
                 background-color: rgb(216, 180, 185);
             }
             </style>
 /*Ejercicio6*/
 
 <style>
-            .5 {
+            .s5 {
                 resize: both;
                 overflow: auto;
                 display: grid;
@@ -110,20 +110,20 @@ hr {
                 background-color: lightskyblue;
             }
             
-            .5-1{
+            .s5-1{
                 background-color:rgb(238, 193, 212);
                 grid-column: 1 / 4;
             }
-            .5-2 {
+            .s5-2 {
                 background-color: rgb(196, 226, 236);
             }
-            .5-3 {
+            .s5-3 {
                 background-color: rgb(240, 207, 194);
             }
-            .5-4 {
+            .s5-4 {
                 background-color: rgb(247, 241, 187);
             }
-            .5-5 {
+            .s5-5 {
                 background-color: rgb(192, 245, 192);
                 grid-column: 1 / 4;
             }
