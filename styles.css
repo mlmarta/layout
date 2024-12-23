@@ -55,10 +55,10 @@ cabecera {
 </style>
 /*Final*/
 <style>
-        /* Fondo negro para el body y color de texto blanco */
+        /* Fondo negro y color de texto negro */
         body {
             background-color: black;
-            color: white;
+            color: black;
             font-family: Arial, sans-serif;
         }
 
