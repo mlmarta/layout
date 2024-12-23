@@ -58,7 +58,7 @@ cabecera {
         /* Fondo negro y color de texto negro */
         body {
             background-color: black;
-            color: black;
+            color: white;
             font-family: Arial, sans-serif;
         }
 
