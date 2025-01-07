@@ -58,7 +58,7 @@ cabecera {
         /* Fondo negro para el body y color de texto blanco */
         body {
             background-color: black;
-            color: white;
+            color: black;
         }
 
         /* Estilo de los títulos h3 */
