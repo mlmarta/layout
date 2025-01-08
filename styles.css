@@ -27,7 +27,7 @@ cabecera {
 }
 
 /*Ejercicio2*/
- <style>
+
     .ex2 {
         resize: both;
         overflow: auto;
@@ -39,11 +39,11 @@ cabecera {
     .ex2 div {
         background-color:lightyellow;
     }
-</style>
+
 
 
 /*Ejercicio3*/
-  <style>
+
         .ex3 {
             resize: both;
             overflow: auto;
@@ -52,16 +52,12 @@ cabecera {
             background-color:rgb(183, 219, 241);
             justify-content: center;
         }
-</style>
-/*Final*/
-
-        /* Fondo negro para el body y color de texto blanco */
-body {
-    background-color: rgb(6, 6, 70);
-}
-
-h3 {
-    color: white; /* Color de los títulos */
-}
 
 
+      body {
+        background-color: rgb(6, 6, 70);
+    }
+    
+    h3 {
+        color: white; /* Color de los títulos */
+    }
