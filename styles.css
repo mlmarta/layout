@@ -58,11 +58,14 @@ cabecera {
         /* Fondo negro para el body y color de texto blanco */
 body {
     background-color: black;
+    color: white; /* Esto asegura que el texto también sea blanco por defecto */
+    margin: 0; /* Elimina márgenes predeterminados */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la pantalla */
 }
 
-        /* Estilo de los títulos h3 */
 h3 {
     color: white; /* Color de los títulos */
     font-size: 1.5em;
 }
+
 
